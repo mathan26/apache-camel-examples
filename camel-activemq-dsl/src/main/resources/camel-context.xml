@@ -7,7 +7,7 @@
                     http://www.springframework.org/schema/context
                     http://www.springframework.org/schema/context/spring-context-3.2.xsd
                     http://camel.apache.org/schema/spring
-                    http://camel.apache.org/schema/spring/camel-spring-2.12.1.xsd">
+                    http://camel.apache.org/schema/spring/camel-spring.xsd">
 
     <bean id="activemq" class="org.apache.activemq.camel.component.ActiveMQComponent">
         <property name="brokerURL" value="tcp://localhost:61616" />
